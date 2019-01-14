@@ -6,7 +6,14 @@ require './candidates'
 require './filters'
 
 ## Your test code can go here
+# @candidates.each do |candidate|
+#   puts "Candidate [#{candidate[:id]}] #{experienced?(candidate)}"
+# end
+#
+# puts find(15)
+
+puts ordered_by_qualifications(@candidates)
 
 # binding.pry
 
-pp @candidates
+# pp @candidates
